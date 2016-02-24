@@ -49,7 +49,7 @@
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
     ;; of ido
-    ido-ubiquitous
+;;    ido-ubiquitous
 
     ;; Enhances M-x to allow easier execution of commands. Provides
     ;; a filterable list of possible commands in the minibuffer
@@ -76,6 +76,38 @@
 
     ;;enhanced ruby mode
     enh-ruby-mode
+
+    ;; Ruby Linting
+    rubocop
+
+    ;;Json-mode
+    json-mode
+
+    ;;markdown mode
+    markdown-mode
+
+    ;;javascript mode
+    js2-mode
+
+    ;;helm
+    helm
+
+    ;;helm-ag
+    helm-ag
+
+    ;; helm-robe
+    helm-robe
+
+    ;;
+    helm-projectile
+
+    rainbow-delimiters
+
+    ace-window
+
+    company
+
+    rspec-mode
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -142,4 +174,11 @@
 (load "setup-js.el")
 (load "setup-html.el")
 (load "setup-ruby.el")
+(load "setup-markdown.el")
+(load "setup-json.el")
+
+;; Change Font to inconsolata at start
+(add-to-list 'default-frame-alist '(font .  "Inconsolata-g for Powerline-12"))
+(set-face-attribute 'default t :font  "Inconsolata-g for Powerline-12")
+
 

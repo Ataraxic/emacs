@@ -1,14 +1,14 @@
 ;; javascript / html
-(add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
-(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.json$" . js2-mode))
 
 ;;Shell scripts running node.js
-(add-to-list 'interpreter-mode-alist '("node" . js-mode))
+(add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 
 ;;Uses spaces isntead of tabs
 (setq-default indent-tabs-mode nil)
 
-(add-hook 'js-mode-hook 'js2-minor-mode)
+;; (add-hook 'js-mode-hook 'js2-minor-mode)
 
 
 (setq-default js2-basic-offset 2)
@@ -19,8 +19,8 @@
 (add-to-list 'load-path "~/../../usr/local/lib/node_modules/tern/emacs")
 
 (autoload 'tern-mode "tern.el" nil t)
-(add-hook 'js-mode-hook (lambda () (tern-mode t)))
-(add-hook 'js-mode-hook 'auto-complete-mode)
+(add-hook 'js2-mode-hook (lambda () (tern-mode t)))
+(add-hook 'js2-mode-hook 'auto-complete-mode)
 
 (eval-after-load 'tern
    '(progn
@@ -33,15 +33,15 @@
 
 
 ;;paredit
-(defun my-paredit-nonlisp ()
-  "Turn on paredit mode for non-lisps."
-  (interactive)
-  (set (make-local-variable 'paredit-space-for-delimiter-predicates)
-       '((lambda (endp delimiter) nil)))
-  (paredit-mode 1))
+;; (defun my-paredit-nonlisp ()
+;;   "Turn on paredit mode for non-lisps."
+;;   (interactive)
+;;   (set (make-local-variable 'paredit-space-for-delimiter-predicates)
+;;        '((lambda (endp delimiter) nil)))
+;;   (paredit-mode 1))
 
-;;paredit
-(add-hook 'js-mode-hook 'my-paredit-nonlisp) ;use with the above function
+;; ;;paredit
+;; (add-hook 'js-mode-hook 'my-paredit-nonlisp) ;use with the above function
 ;; (add-hook 'js-mode-hook 'esk-paredit-nonlisp) ;for emacs starter kit
 
 ;; coffeescript

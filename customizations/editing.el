@@ -1,5 +1,11 @@
 ;; Customizations relating to editing a buffer.
 
+;; Global Company/autocomplete mode
+(add-hook 'after-init-hook 'global-company-mode)
+
+;; no delay before completions appear. 
+(setq company-idle-delay 0)
+
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
 (global-set-key (kbd "M-/") 'hippie-expand)
@@ -43,6 +49,9 @@
                                                "backups"))))
 (setq auto-save-default nil)
 
+;; EditorConfig
+(require 'editorconfig)
+(editorconfig-mode 1)
 
 ;; comments
 (defun toggle-comment-on-line ()
@@ -52,7 +61,8 @@
 (global-set-key (kbd "C-;") 'toggle-comment-on-line)
 
 ;; yay rainbows!
-(global-rainbow-delimiters-mode t)
+;; Broken
+;;(global-rainbow-delimiters-mode t)
 
 ;; use 2 spaces for tabs
 (defun die-tabs ()
@@ -70,3 +80,4 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
