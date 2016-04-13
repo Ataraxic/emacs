@@ -107,6 +107,8 @@
 
     rspec-mode
 
+    company
+
     flycheck
     ))
 
