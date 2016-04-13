@@ -1,372 +1,604 @@
-((("t" .
-   [1])
-  ("textSwitch" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("val" .
-   [2 0 0])
-  ("button" .
-   [4 0 0 0 0 0])
-  ("value" .
+((("prepend" .
+   [4 0 0 0 0 0 0])
+  ("ready" .
    [1 0 0 0 0])
-  ("text" .
-   [4 0 0 0])
-  ("toggleClass" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("n" .
-   [1])
-  ("init" .
-   [3 0 0 0])
-  ("lib" .
-   [1 0 0])
-  ("true" .
-   [1 0 0 0])
-  ("setErrorMessage" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("app" .
-   [1 0 0])
-  ("on" .
+  ("dataType" .
+   [1 0 0 0 1 0 0 0])
+  ("createWriteStream" .
+   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("fs" .
    [2 0])
-  ("instance" .
-   [2 0 0 0 0 0 0 0])
-  ("send" .
-   [1 0 0 0])
-  ("function" .
-   [0 0 0 0 1 0 0 0])
-  ("rides" .
-   [11 0 0 0 0])
-  ("populate" .
-   [3 0 0 0 0 0 0 0])
-  ("id" .
-   [2 0])
-  ("params" .
-   [2 0 0 0 0 0])
-  ("Customer" .
-   [7 0 0 0 0 0 0 0])
-  ("_id" .
-   [3 0 0])
-  ("undefined" .
-   [3 0 0 0 0 0 1 0 0])
-  ("updatedCustomer" .
-   [1 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("c" .
-   [1])
-  ("push" .
-   [4 0 0 0])
-  ("promises" .
-   [3 0 0 0 0 0 0 0])
-  ("save" .
-   [4 0 0 0])
-  ("customer" .
-   [4 0 0 0 0 0 0 0])
-  ("InitialSurvey" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("survey" .
-   [8 0 0 0 0 0])
-  ("customerToUpdate" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("findById" .
-   [4 0 0 0 0 0 1 0])
-  ("body" .
-   [3 0 0 0])
-  ("allCustomers" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("totalItems" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("currentPage" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("searchTerms" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("itemsPerPage" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("reject" .
-   [1 0 0 0 0 0])
-  ("resolve" .
-   [1 0 0 0 0 0 0])
-  ("hideKeyInput" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("alchKey" .
+  ("pipe" .
+   [2 0 0 0])
+  ("path" .
+   [5 0 0 0])
+  ("https" .
+   [4 0 0 0 0])
+  ("options" .
    [3 0 0 0 0 0 0])
-  ("apiObj" .
-   [6 0 0 0 0 0])
-  ("sync" .
+  ("filename" .
+   [1 0 0 0 0 0 0 0])
+  ("directory" .
+   [1 0 0 0 0 0 0 0 0])
+  ("file" .
    [1 0 0 0])
-  ("storage" .
+  ("download" .
+   [2 0 0 0 0 0 0 0])
+  ("statusCode" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("onlyTwo" .
    [1 0 0 0 0 0 0])
-  ("chrome" .
+  ("upper" .
+   [1 0 0 0 0])
+  ("count" .
+   [3 0 0 0 0])
+  ("POSITIVE_INFINITY" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ride" .
+   [9 0 0 0])
+  ("Ride" .
+   [2 0 0 0])
+  ("newCustomer" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("s" .
+   [7])
+  ("sendStatus" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("response" .
+   [7 0 0 0 0 0 0 0])
+  ("destroy" .
+   [1 0 0 0 0 0 0])
+  ("cust" .
+   [4 0 0 0])
+  ("go" .
+   [1 0])
+  ("$state" .
    [1 0 0 0 0 0])
-  ("Promise" .
-   [5 0 0 0 0 0 0])
-  ("type" .
+  ("cheapAction" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("expensiveAction" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("heldValue" .
+   [1 0 0 0 0 0 0 0 0])
+  ("a" .
+   [3])
+  ("availableFunds" .
+   [6 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cost" .
+   [5 0 0 0])
+  ("appleAction" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("obj" .
+   [1 0 0])
+  ("teslaAction" .
+   [1 0 0 1 0 0 0 0 0 0 0])
+  ("where" .
+   [4 0 0 0 0])
+  ("it" .
+   [7 0])
+  ("equal" .
+   [9 0 0 0 0])
+  ("quantity" .
+   [5 0 0 0 0 0 0 0])
+  ("to" .
+   [10 0])
+  ("googleAction" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("describe" .
+   [1 0 0 0 0 0 0 0])
+  ("result2" .
+   [8 0 0 0 0 0 0])
+  ("data1" .
+   [3 0 0 0 0])
+  ("result1" .
+   [6 0 0 0 0 0 0])
+  ("beforeEach" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("actionsToTake" .
+   [6 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("number" .
+   [5 0 0 0 0 0])
+  ("data2" .
+   [3 0 0 0 0])
+  ("expect" .
+   [46 0 0 0 0 0])
+  ("reverse" .
+   [0 0 0 0 0 1 0])
+  ("sortBy" .
+   [1 0 0 0 0 0])
+  ("slice" .
+   [1 0 0 0 0])
+  ("abs" .
+   [4 0 0])
+  ("data" .
+   [5 0 0 0])
+  ("sharesOwned" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("actualAllocation" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("printAllocation" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("ticker" .
+   [9 0 0 0 0 0])
+  ("action" .
+   [20 0 0 0 0 0])
+  ("string" .
+   [1 0 0 0 0 0])
+  ("determineAllocation" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("reallocateShares" .
+   [4 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0])
+  ("allocated" .
+   [0 0 0 0 0 0 0 0 1])
+  ("floor" .
+   [1 0 0 0 0])
+  ("sharePrice" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("change" .
+   [3 0 0 0 0 0])
+  ("differenceFromPerfect" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("moneyInvested" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("curr" .
+   [2 0 0 0])
+  ("prev" .
+   [7 0 0 0])
+  ("reduce" .
+   [1 0 0 0 0 0])
+  ("reallocateCash" .
+   [2 0 0 0 0 2 0 0 0 0 0 0 0 3])
+  ("maxCash" .
+   [12 0 0 1 0 0 0])
+  ("allocation" .
+   [12 0 0 0 0 0 0 0 0 0])
+  ("allocatedCashValue" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("current" .
+   [1 0 0 0 0 0 0])
+  ("actualValue" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("targetedValue" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("targetAllocation" .
+   [3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("totalMoney" .
+   [4 0 0 0 0 1 0 0 0 1])
+  ("targetCashAlloc" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("map" .
+   [6 0 0])
+  ("key" .
+   [1 0 0])
+  ("stock" .
+   [43 0 0 0 0])
+  ("totalValue" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("currentAlloc" .
+   [14 0 0 0 0 0 0 0 0 0 1 1])
+  ("rebalancer" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("require" .
+   [7 0 0 0 0 0 0])
+  ("activeList" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("Employee" .
+   [3 0 0 0 0 0 0 0])
+  ("User" .
+   [4 0 0 0])
+  ("model" .
+   [6 1 0 0 1])
+  ("config" .
+   [5 0 0 1 0 1])
+  ("req" .
+   [7 0 0])
+  ("err" .
+   [9 0 0])
+  ("json" .
+   [2 0 0 0])
+  ("res" .
+   [7 0 0])
+  ("null" .
+   [4 0 0 0])
+  ("then" .
+   [12 0 0 0])
+  ("module" .
+   [3 0 0 0 0 1])
+  ("angular" .
+   [2 0 0 1 0 0 0])
+  ("this" .
+   [10 0 0 0])
+  ("checkinData" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("show" .
+   [0 0 1 0])
+  ("showRow" .
+   [0 0 0 0 1 0 0])
+  ("start" .
+   [1 0 0 0 0])
+  ("now" .
+   [1 0 0])
+  ("cohort" .
+   [1 0 0 0 0 0])
+  ("cohort1" .
+   [1 0 0 0 0 0 0])
+  ("_cohort" .
+   [1 0 0 0 0 0 0])
+  ("done" .
+   [2 0 0 0])
+  ("console" .
+   [29 0 0 0 0 0 0])
+  ("log" .
+   [30 0 0])
+  ("indexOf" .
+   [1 0 0 0 0 0 0])
+  ("roles" .
+   [5 0 0 0 0])
+  ("join" .
+   [1 0 0 0])
+  ("callsNextSpy" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("called" .
+   [3 0 0 0 0 0])
+  ("hangsSpy" .
+   [1 0 0 0 0 0 0 0])
+  ("res200Spy" .
+   [3 0 0 0 0 0 0 0 0])
+  ("user" .
+   [15 0 0 0])
+  ("next" .
+   [5 0 0 0])
+  ("doNotCall" .
+   [5 0 0 0 0 1 1 0 0])
+  ("doNotCallSpy" .
+   [1 0 0 0 0 0 0 0 0 1 0 0])
+  ("router" .
+   [1 0 0 0 0 0])
+  ("get" .
+   [7 0 0])
+  ("fakeLoad" .
+   [1 0 0 0 0 0 0 0])
+  ("auth" .
+   [1 0 0 0])
+  ("route" .
+   [1 0 0 0 0])
+  ("comments" .
+   [1 0 0 0 0 0 0 0])
+  ("$scope" .
+   [10 0 0 0 0 0])
+  ("date" .
    [1 0 0 0])
   ("hide" .
    [3 0 0 0])
-  ("date" .
-   [1 0 0 0])
-  ("$scope" .
-   [10 0 0 0 0 0])
-  ("comments" .
-   [1 0 0 0 0 0 0 0])
-  ("route" .
-   [1 0 0 0 0])
-  ("auth" .
-   [1 0 0 0])
-  ("fakeLoad" .
-   [1 0 0 0 0 0 0 0])
-  ("get" .
-   [6 0 0])
-  ("router" .
-   [1 0 0 0 0 0])
-  ("doNotCallSpy" .
-   [1 0 0 0 0 0 0 0 0 1 0 0])
-  ("doNotCall" .
-   [5 0 0 0 0 1 1 0 0])
-  ("next" .
-   [5 0 0 0])
-  ("user" .
-   [15 0 0 0])
-  ("res200Spy" .
-   [3 0 0 0 0 0 0 0 0])
-  ("hangsSpy" .
-   [1 0 0 0 0 0 0 0])
-  ("called" .
-   [3 0 0 0 0 0])
-  ("callsNextSpy" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("join" .
-   [1 0 0 0])
-  ("roles" .
-   [5 0 0 0 0])
-  ("indexOf" .
-   [1 0 0 0 0 0 0])
-  ("log" .
-   [30 0 0])
-  ("console" .
-   [29 0 0 0 0 0 0])
-  ("done" .
-   [2 0 0 0])
-  ("_cohort" .
-   [1 0 0 0 0 0 0])
-  ("cohort1" .
-   [1 0 0 0 0 0 0])
-  ("cohort" .
-   [1 0 0 0 0 0])
-  ("now" .
-   [1 0 0])
-  ("start" .
-   [1 0 0 0 0])
-  ("showRow" .
-   [0 0 0 0 1 0 0])
-  ("show" .
-   [0 0 1 0])
-  ("checkinData" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("this" .
-   [1 0 0 0])
-  ("angular" .
-   [2 0 0 1 0 0 0])
-  ("module" .
-   [3 0 0 0 0 1])
-  ("then" .
-   [12 0 0 0])
-  ("null" .
+  ("type" .
    [3 0 0 0])
-  ("res" .
-   [7 0 0])
-  ("json" .
-   [2 0 0 0])
-  ("err" .
-   [9 0 0])
-  ("req" .
-   [7 0 0])
-  ("config" .
-   [5 0 0 1 0 1])
-  ("model" .
-   [3 1 0 0 1])
-  ("User" .
-   [4 0 0 0])
-  ("Employee" .
-   [1 0 0 0 0 0 0 0])
-  ("activeList" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("require" .
-   [7 0 0 0 0 0 0])
-  ("rebalancer" .
-   [6 0 0 0 0 0 0 0 0 0])
-  ("currentAlloc" .
-   [14 0 0 0 0 0 0 0 0 0 1 1])
-  ("totalValue" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("stock" .
-   [43 0 0 0 0])
-  ("key" .
-   [1 0 0])
-  ("map" .
-   [6 0 0])
-  ("targetCashAlloc" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("totalMoney" .
-   [4 0 0 0 0 1 0 0 0 1])
-  ("targetAllocation" .
-   [3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("targetedValue" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("actualValue" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("current" .
+  ("Promise" .
+   [5 0 0 0 0 0 0])
+  ("chrome" .
+   [1 0 0 0 0 0])
+  ("storage" .
    [1 0 0 0 0 0 0])
-  ("allocatedCashValue" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("allocation" .
-   [12 0 0 0 0 0 0 0 0 0])
-  ("maxCash" .
-   [12 0 0 1 0 0 0])
-  ("reallocateCash" .
-   [2 0 0 0 0 2 0 0 0 0 0 0 0 3])
-  ("reduce" .
-   [1 0 0 0 0 0])
-  ("prev" .
-   [7 0 0 0])
-  ("curr" .
-   [2 0 0 0])
-  ("moneyInvested" .
-   [1 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("differenceFromPerfect" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("change" .
-   [3 0 0 0 0 0])
-  ("sharePrice" .
-   [5 0 0 0 0 0 0 0 0 0])
-  ("floor" .
-   [1 0 0 0 0])
-  ("allocated" .
-   [0 0 0 0 0 0 0 0 1])
-  ("reallocateShares" .
-   [4 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0])
-  ("determineAllocation" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("string" .
-   [1 0 0 0 0 0])
-  ("action" .
-   [20 0 0 0 0 0])
-  ("ticker" .
-   [9 0 0 0 0 0])
-  ("printAllocation" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("actualAllocation" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("sharesOwned" .
-   [4 0 0 0 0 0 0 0 0 0 0])
-  ("data" .
-   [5 0 0 0])
-  ("abs" .
-   [4 0 0])
-  ("slice" .
-   [1 0 0 0 0])
-  ("sortBy" .
-   [1 0 0 0 0 0])
-  ("reverse" .
-   [0 0 0 0 0 1 0])
-  ("expect" .
-   [10 0 0 0 0 0])
-  ("data2" .
-   [3 0 0 0 0])
-  ("number" .
-   [5 0 0 0 0 0])
-  ("actionsToTake" .
-   [6 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("beforeEach" .
-   [1 0 0 0 0 0 1 0 0 0])
-  ("result1" .
-   [6 0 0 0 0 0 0])
-  ("data1" .
-   [3 0 0 0 0])
-  ("result2" .
-   [8 0 0 0 0 0 0])
-  ("describe" .
-   [1 0 0 0 0 0 0 0])
-  ("googleAction" .
-   [3 0 0 0 0 0 0 0 0 0 0 0])
-  ("to" .
-   [9 0])
-  ("quantity" .
-   [5 0 0 0 0 0 0 0])
-  ("equal" .
-   [9 0 0 0 0])
-  ("it" .
-   [4 0])
-  ("where" .
-   [4 0 0 0 0])
-  ("teslaAction" .
-   [1 0 0 1 0 0 0 0 0 0 0])
-  ("obj" .
-   [1 0 0])
-  ("appleAction" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("cost" .
-   [5 0 0 0])
-  ("availableFunds" .
-   [6 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("a" .
-   [2])
-  ("heldValue" .
-   [1 0 0 0 0 0 0 0 0])
-  ("expensiveAction" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("cheapAction" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("$state" .
-   [1 0 0 0 0 0])
-  ("go" .
-   [1 0])
-  ("cust" .
-   [4 0 0 0])
-  ("destroy" .
-   [1 0 0 0 0 0 0])
-  ("response" .
-   [3 0 0 0 0 0 0 0])
-  ("sendStatus" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("s" .
-   [1])
-  ("newCustomer" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("Ride" .
-   [2 0 0 0])
-  ("ride" .
-   [9 0 0 0])
-  ("POSITIVE_INFINITY" .
-   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("count" .
-   [3 0 0 0 0])
-  ("upper" .
-   [1 0 0 0 0])
-  ("onlyTwo" .
-   [1 0 0 0 0 0 0])
-  ("statusCode" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("download" .
-   [2 0 0 0 0 0 0 0])
-  ("file" .
+  ("sync" .
    [1 0 0 0])
-  ("directory" .
-   [1 0 0 0 0 0 0 0 0])
-  ("filename" .
-   [1 0 0 0 0 0 0 0])
-  ("options" .
+  ("apiObj" .
+   [6 0 0 0 0 0])
+  ("alchKey" .
    [3 0 0 0 0 0 0])
-  ("https" .
-   [4 0 0 0 0])
-  ("path" .
-   [5 0 0 0])
-  ("pipe" .
-   [2 0 0 0])
-  ("fs" .
+  ("hideKeyInput" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("resolve" .
+   [1 0 0 0 0 0 0])
+  ("reject" .
+   [1 0 0 0 0 0])
+  ("itemsPerPage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("searchTerms" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("currentPage" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("totalItems" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("allCustomers" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("body" .
+   [3 0 0 0])
+  ("findById" .
+   [4 0 0 0 0 0 1 0])
+  ("customerToUpdate" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("survey" .
+   [8 0 0 0 0 0])
+  ("InitialSurvey" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("customer" .
+   [4 0 0 0 0 0 0 0])
+  ("save" .
+   [4 0 0 0])
+  ("promises" .
+   [3 0 0 0 0 0 0 0])
+  ("push" .
+   [4 0 0 0])
+  ("c" .
+   [4])
+  ("updatedCustomer" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("undefined" .
+   [5 0 0 0 0 0 1 0 0])
+  ("_id" .
+   [3 0 0])
+  ("Customer" .
+   [7 0 0 0 0 0 0 0])
+  ("params" .
+   [2 0 0 0 0 0])
+  ("id" .
+   [4 0])
+  ("populate" .
+   [3 0 0 0 0 0 0 0])
+  ("rides" .
+   [11 0 0 0 0])
+  ("function" .
+   [9 0 0 0 1 0 0 0])
+  ("send" .
+   [1 0 0 0])
+  ("instance" .
+   [2 0 0 0 0 0 0 0])
+  ("on" .
    [2 0])
-  ("createWriteStream" .
-   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("dataType" .
-   [0 0 0 0 1 0 0 0])
-  ("ready" .
+  ("app" .
+   [1 0 0])
+  ("setErrorMessage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("true" .
+   [4 0 0 0])
+  ("lib" .
+   [1 0 0])
+  ("init" .
+   [3 0 0 0])
+  ("n" .
+   [1])
+  ("toggleClass" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("text" .
+   [4 0 0 0])
+  ("value" .
+   [3 0 0 0 0])
+  ("button" .
+   [4 0 0 0 0 0])
+  ("val" .
+   [2 0 0])
+  ("textSwitch" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("t" .
+   [2])
+  ("SelectBox" .
+   [5 0 0 0 0 0 0 0 0])
+  ("getComponent" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Collections" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("SelectItems" .
+   [10 0 0 0 0 0 0 0 0 0 0])
+  ("selectItem" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("new" .
+   [11 0 0])
+  ("cachedSearches" .
+   [3 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("toEqual" .
+   [18 0 0 0 0 0 0])
+  ("groupOrder" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("false" .
+   [4 0 0 0 0])
+  ("var" .
+   [9 0 0])
+  ("compareWithoutGroup" .
+   [8 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("comparators" .
+   [9 0 0 0 0 0 0 0 0 0 0])
+  ("ItemComparator" .
+   [12 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("selectItems" .
+   [49 0 0 0 0 0 0 0 0 0 0])
+  ("comparator" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("compare" .
+   [7 0 0 0 0 0 0])
+  ("Backbone" .
+   [1 0 0 0 0 0 0 0])
+  ("Models" .
+   [2 0 0 0 0 0])
+  ("debugger" .
+   [7 0 0 0 0 0 0 0])
+  ("App" .
+   [2 0 0])
+  ("sortOrder" .
+   [1 0 0 0 0 0 0 0 0])
+  ("basicModel" .
+   [12 0 0 0 0 0 0 0 0 0])
+  ("priority" .
+   [1 0 0 0 0 0 0 0])
+  ("name" .
+   [2 0 0 0])
+  ("spyOn" .
+   [16 0 0 0 0])
+  ("v" .
+   [1])
+  ("and" .
+   [9 0 0])
+  ("compareWithoutGroupSpy" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("e" .
+   [3])
+  ("returnValue" .
+   [9 0 0 0 0 0 0 0 0 0 0])
+  ("set" .
+   [3 0 0])
+  ("spec" .
+   [1 0 0 0])
+  ("stubProperty" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("what" .
+   [1 0 0 0])
+  ("f" .
+   [3])
+  ("force" .
+   [2 0 0 0 0])
+  ("return" .
+   [7 0 0 0 0 0])
+  ("searchUrl" .
+   [4 0 0 0 0 0 0 0 0])
+  ("searchXHR" .
+   [5 0 0 0 0 0 0 0 0])
+  ("abort" .
+   [3 0 0 0 0])
+  ("_onSuccess" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("query" .
+   [6 0 0 0 0])
+  ("_success" .
+   [2 0 0 0 0 0 0 0])
+  ("else" .
+   [1 0 0 0])
+  ("_abortInProgressXHR" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("_beforeSend" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("_searchConfig" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("performSearchSpy" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("loadMore" .
+   [2 0 0 0 0 0 0 0])
+  ("NaN" .
+   [1 0 0])
+  ("load" .
+   [1 0 0 0])
+  ("toHaveBeenCalledWith" .
+   [8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("successCallback" .
+   [4 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("results" .
+   [1 0 0 0 0 0 0])
+  ("add" .
+   [1 0 0])
+  ("b" .
+   [2])
+  ("addSpy" .
+   [1 0 0 0 0 0])
+  ("result" .
+   [2 0 0 0 0 0])
+  ("pushSpy" .
+   [1 0 0 0 0 0 0])
+  ("trigger" .
+   [1 0 0 0 0 0 0])
+  ("p" .
+   [1])
+  ("triggerSpy" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("before" .
+   [1 0 0 0 0 0])
+  ("window" .
+   [7 0 0 0 0 0])
+  ("afterEach" .
+   [1 0 0 0 0 0 0 0 0])
+  ("original$" .
+   [2 0 0 0 0 0 0 0 0])
+  ("jasmine" .
+   [5 0 0 0 0 0 0])
+  ("createSpyObj" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("attr" .
+   [2 0 0 0])
+  ("createSpy" .
+   [2 0 0 0 0 0 0 0 0])
+  ("domSpy" .
+   [3 0 0 0 0 0])
+  ("$spy" .
+   [6 0 0 0])
+  ("beforeSend" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("xhrSpy" .
+   [8 0 0 0 0 0])
+  ("no" .
+   [1 0])
+  ("toHaveBeenCalled" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("remove" .
+   [1 0 0 0 0 0])
+  ("setRequestHeader" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("not" .
+   [3 0 0])
+  ("beforeSendSpy" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("successSpy" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("_generateSearchConfig" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("searchConfig" .
+   [5 0 0 0 0 0 0 0 0 0 0 0])
+  ("url" .
+   [2 0 0])
+  ("GET" .
+   [1 0 0])
+  ("success" .
+   [1 0 0 0 0 0 0])
+  ("toNotHaveBeenCalled" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("performSearch" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("configSpy" .
+   [1 0 0 0 0 0 0 0 0])
+  ("spy" .
+   [3 0 0])
+  ("ajaxSpy" .
+   [5 0 0 0 0 0 0])
+  ("ajax" .
+   [1 0 0 0])
+  ("k" .
+   [1])
+  ("karmaConfig" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("singleRun" .
+   [2 0 0 0 0 0 0 0 0])
+  ("sr" .
+   [1 0])
+  ("Views" .
+   [3 0 0 0 0])
+  ("SelectBoxEmpty" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("selectBoxEmpty" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("template" .
+   [2 0 0 0 0 0 0 0])
+  ("className" .
+   [2 0 0 0 0 0 0 0 0])
+  ("o" .
+   [1])
+  ("tagName" .
+   [3 0 0 0 0 0 1])
+  ("SelectOption" .
+   [6 0 0 0 0 0 0 0 0 0 0 0])
+  ("Model" .
    [1 0 0 0 0])
-  ("prepend" .
-   [4 0 0 0 0 0 0])))
+  ("selectOption" .
+   [12 0 0 0 0 0 0 0 0 0 0 0])
+  ("parseHTML" .
+   [2 0 0 0 0 0 0 0 0])
+  ("parseHTMLSpy" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("SelectBoxItem" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("selectBoxItem" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("m" .
+   [1])
+  ("view" .
+   [1 0 0 0])
+  ("$el" .
+   [2 0 0])
+  ("render" .
+   [1 0 0 0 0 0])
+  ("attributes" .
+   [1 0 0 0 0 0 0 0 0 0])))
