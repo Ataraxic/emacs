@@ -1,10 +1,10 @@
 ;; Customizations relating to editing a buffer.
 
 ;; Global Company/autocomplete mode
-(add-hook 'after-init-hook 'global-company-mode)
+;; (add-hook 'after-init-hook 'global-company-mode)
 
 ;; no delay before completions appear. 
-(setq company-idle-delay 0)
+;; (setq company-idle-delay 0)
 
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
@@ -72,12 +72,12 @@
   (untabify (region-beginning) (region-end))
   (keyboard-quit))
 
-;; fix weird os x kill error
-(defun ns-get-pasteboard ()
-  "Returns the value of the pasteboard, or nil for unsupported formats."
-  (condition-case nil
-      (ns-get-selection-internal 'CLIPBOARD)
-    (quit nil)))
+;; ;; fix weird os x kill error
+;; (defun ns-get-pasteboard ()
+;;   "Returns the value of the pasteboard, or nil for unsupported formats."
+;;   (condition-case nil
+;;       (ns-get-selection-internal 'CLIPBOARD)
+;;     (quit nil)))
 
 (setq electric-indent-mode nil)
 

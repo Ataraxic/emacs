@@ -5,6 +5,8 @@
 ;; Define package repositories
 (require 'package)
 (add-to-list 'package-archives
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
@@ -57,7 +59,7 @@
     smex
 
     ;; project navigation
-    projectile
+;;    projectile
 
     ;; colorful parenthesis matching
     rainbow-delimiters
@@ -95,21 +97,11 @@
     ;;helm-ag
     helm-ag
 
-    ;; helm-robe
-    helm-robe
-
-    ;;
     helm-projectile
 
     rainbow-delimiters
 
     ace-window
-
-    rspec-mode
-
-    company
-
-    flycheck
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -139,8 +131,7 @@
 ;; 
 ;; Adding this code will make Emacs enter yaml mode whenever you open
 ;; a .yml file
-(add-to-list 'load-path "~/.emacs.d/vendor")
-
+;; (add-to-list 'load-path "~/.emacs.d/vendor")
 
 ;;;;
 ;; Customization
@@ -198,3 +189,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+

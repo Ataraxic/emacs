@@ -10,26 +10,25 @@
 
 ;; (add-hook 'js-mode-hook 'js2-minor-mode)
 
-
 (setq-default js2-basic-offset 2)
 (setq js2-highlight-level 3)
 (setq js-indent-level 2)
 
 ;;Tern
-(add-to-list 'load-path "~/../../usr/local/lib/node_modules/tern/emacs")
+;; (add-to-list 'load-path "~/../../usr/local/lib/node_modules/tern/emacs")
 
-(autoload 'tern-mode "tern.el" nil t)
-(add-hook 'js2-mode-hook (lambda () (tern-mode t)))
-(add-hook 'js2-mode-hook 'auto-complete-mode)
+;; (autoload 'tern-mode "tern.el" nil t)
+;; (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
+;; (add-hook 'js2-mode-hook 'auto-complete-mode)
 
-(eval-after-load 'tern
-   '(progn
-      (require 'tern-auto-complete)
-      (tern-ac-setup)))
+;; (eval-after-load 'tern
+;;    '(progn
+;;       (require 'tern-auto-complete)
+;;       (tern-ac-setup)))
 
-(defun delete-tern-process ()
-  (interactive)
-  (delete-process "Tern"))
+;; (defun delete-tern-process ()
+;;   (interactive)
+;;   (delete-process "Tern"))
 
 
 ;;paredit
