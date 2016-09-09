@@ -81,3 +81,4 @@
 
 (setq electric-indent-mode nil)
 
+(require 'evil)
