@@ -82,3 +82,6 @@
 (setq electric-indent-mode nil)
 
 (require 'evil)
+
+(require 'yasnippet) 
+(yas-global-mode 1)
