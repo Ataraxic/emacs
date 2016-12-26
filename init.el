@@ -41,6 +41,16 @@
     ;; https://github.com/clojure-emacs/clojure-mode
     clojure-mode
 
+    request
+
+    multi-term
+
+    editorconfig
+
+    rbenv
+
+    rspec-mode
+
     ;; extra syntax highlighting for clojure
     clojure-mode-extra-font-locking
 
