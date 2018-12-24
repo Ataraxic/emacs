@@ -1,0 +1,4 @@
+#name : require 'pry'; binding.pry;
+#group : debug
+# --
+require 'pry'; binding.pry;
