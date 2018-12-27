@@ -4,6 +4,9 @@
 
 (global-set-key (kbd "C-/") 'undo)
 
+(global-set-key (kbd "C-;") 'toggle-comment-on-line)
+
+
 (with-eval-after-load 'helm
   ;; The default "C-x c" is quite close to "C-x C-c", which quits Emacs.
   ;; Changed to "C-c h". Note: We must set "C-c h" globally, because we
@@ -24,7 +27,5 @@
   (global-set-key (kbd "C-h r") 'helm-info-emacs)
   (global-set-key (kbd "C-h C-l") 'helm-locate-library)
   )
-
-
 
 (provide 'custom-keybinds)
