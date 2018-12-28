@@ -4,6 +4,9 @@
 ;; Always load newest byte code
 (setq load-prefer-newer t)
 
+;; so much utility
+(require 'cl)
+
 ;; Taken from prelude's init.el
 (defun add-subfolders-to-load-path (parent-dir)
  "Add all level PARENT-DIR subdirs to the `load-path'."
@@ -29,6 +32,8 @@
 (defvar themes-directory (expand-file-name "themes" custom-default-directory)
   "put your themes here")
 
+(add-subfolders-to-load-path vendor-directory)
+
 (unless (file-exists-p savefile-directory)
   (make-directory savefile-directory))
 
@@ -44,9 +49,7 @@
 (setq large-file-warning-threshold 100000000)
 
 ;; autoload all my customizations (core load first by alphabet)
-(mapc #'load (cdr (directory-files customization-directory t ".el$")))
-
-(require 'cl)
+(mapc #'load (directory-files customization-directory t ".el$"))
 
 (set-face-attribute 'default nil
                     :family "Inconsolata" :height (case system-type
@@ -58,7 +61,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(org-mode multi-term zenburn-theme yasnippet yaml-mode web-mode smartparens rubocop rspec-mode rjsx-mode rbenv rainbow-delimiters markdown-mode magit json-mode helm-projectile helm-ag expand-region exec-path-from-shell enh-ruby-mode editorconfig crux cider anzu ace-window)))
+   '(scss-mode parinfer parinfer-mode org-plus-contrib org-mode multi-term zenburn-theme yasnippet yaml-mode web-mode smartparens rubocop rspec-mode rjsx-mode rbenv rainbow-delimiters markdown-mode magit json-mode helm-projectile helm-ag expand-region exec-path-from-shell enh-ruby-mode editorconfig crux cider anzu ace-window)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

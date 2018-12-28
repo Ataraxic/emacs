@@ -11,9 +11,6 @@
 (setq package-user-dir (expand-file-name "elpa" custom-default-directory))
 (package-initialize)
 
-;; install common lisp functions
-(require 'cl)
-
 ;; recompile files after changes
 (defun recompile-init ()
   "Byte-compile all your dotfiles again."
@@ -24,6 +21,7 @@
   '(ace-window
     anzu
     cider
+    clojure-mode
     crux
     editorconfig
     enh-ruby-mode
@@ -39,6 +37,7 @@
     multi-term
     org
     org-plus-contrib
+    parinfer
     projectile
     rainbow-delimiters
     rbenv
