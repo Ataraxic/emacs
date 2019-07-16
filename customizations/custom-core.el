@@ -22,11 +22,19 @@
     anzu
     cider
     clojure-mode
+    company
+    company-go
     crux
     editorconfig
     enh-ruby-mode
     exec-path-from-shell
     expand-region
+    go-add-tags
+    go-direx
+    go-eldoc
+    go-mode
+    go-stacktracer
+    gotest
     helm
     helm-ag
     helm-projectile
@@ -34,6 +42,8 @@
     json-mode
     magit
     markdown-mode
+    minions
+    moody
     multi-term
     org
     org-plus-contrib
@@ -46,10 +56,11 @@
     rubocop
     scss-mode
     smartparens
-    zenburn-theme
+    use-package
     web-mode
     yaml-mode
-    yasnippet))
+    yasnippet
+    zenburn-theme))
 
 (defun custom-packages-installed-p ()
   "Check if all packages in `custom-packages' are installed."
@@ -161,5 +172,11 @@ PACKAGE is installed only if not already present.  The file is opened in MODE."
 (exec-path-from-shell-initialize)
 
 (provide 'custom-core)
+
+(use-package moody
+  :config
+  (setq x-underline-at-descent-line t)
+  (moody-replace-mode-line-buffer-identification)
+  (moody-replace-vc-mode))
 
 

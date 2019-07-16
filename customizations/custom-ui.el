@@ -63,4 +63,21 @@
 (add-to-list 'load-path themes-directory)
 (load-theme 'zenburn t)
 
+;; moody related
+(let ((line (face-attribute 'mode-line :underline)))
+  (set-face-attribute 'mode-line nil :underline "#6F6F6F")
+  (set-face-attribute 'mode-line nil :overline "#6F6F6F")
+  (set-face-attribute 'mode-line-inactive nil :overline   line)
+  (set-face-attribute 'mode-line-inactive nil :underline  line)
+  (set-face-attribute 'mode-line          nil :box        nil)
+  (set-face-attribute 'mode-line-inactive nil :box        nil)
+  (set-face-attribute 'mode-line nil :background "#2B2B2B")
+  (set-face-attribute 'mode-line-inactive nil :background "#4F4F4F"))
+
+(require 'moody)
+(setq x-underline-at-descent-line t)
+(setq moody-slant-function #'moody-slant-apple-rgb)
+(moody-replace-mode-line-buffer-identification)
+(moody-replace-vc-mode)
+
 (provide 'custom-ui)

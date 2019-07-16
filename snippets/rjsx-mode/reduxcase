@@ -1,0 +1,10 @@
+#name : reduxcase
+#group : react
+# --
+  case "$1":
+    var { $2 } = state;
+
+    return {
+      ...state,
+      
+    };

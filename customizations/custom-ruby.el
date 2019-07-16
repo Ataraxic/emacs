@@ -15,6 +15,11 @@
 
 (require 'rspec-mode)
 (add-hook 'enh-ruby-mode-hook 'rspec-mode)
+
+(require 'yasnippet)
+(yas-reload-all)
+(add-hook 'enh-ruby-mode-hook #'yas-minor-mode)
+
 ;; I want rspec instead of rake spec
 (setq rspec-use-rake-when-possible nil)
 ;; Scroll to the first test failure

@@ -1,0 +1,39 @@
+#name : redux-new-component
+#group : react
+# --
+// @flow
+
+import React from "react";
+import { connect } from "react-redux";
+import type { ExtractReturn } from "Utilities/flow";
+
+function mapStateToProps(state) {
+  return {
+
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+
+  };
+}
+
+type Props = ExtractReturn<typeof mapStateToProps> &
+  ExtractReturn<typeof mapDispatchToProps>;
+
+type State = {};
+
+class $1 extends React.Component<Props, State> {
+  constructor(props: Props) {
+    super(props)
+  }
+
+  render() {
+    return (
+
+    );
+  }
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)($1)

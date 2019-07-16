@@ -51,20 +51,23 @@
 ;; autoload all my customizations (core load first by alphabet)
 (mapc #'load (directory-files customization-directory t ".el$"))
 
-(set-face-attribute 'default nil
-                    :family "Inconsolata" :height (case system-type
-                                                    ('gnu/linux 130)
-                                                    ('darwin 130)) :weight 'normal)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(js-indent-level 2)
  '(package-selected-packages
-   '(scss-mode parinfer parinfer-mode org-plus-contrib org-mode multi-term zenburn-theme yasnippet yaml-mode web-mode smartparens rubocop rspec-mode rjsx-mode rbenv rainbow-delimiters markdown-mode magit json-mode helm-projectile helm-ag expand-region exec-path-from-shell enh-ruby-mode editorconfig crux cider anzu ace-window)))
+   '(csv-mode go-mode haml-mode scss-mode parinfer parinfer-mode org-plus-contrib org-mode multi-term zenburn-theme yasnippet yaml-mode web-mode smartparens rubocop rspec-mode rjsx-mode rbenv rainbow-delimiters markdown-mode magit json-mode helm-projectile helm-ag expand-region exec-path-from-shell enh-ruby-mode editorconfig crux cider anzu ace-window)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(set-face-attribute 'default nil
+                    :family "Inconsolata for Powerline"
+                    :height 140
+                    :weight 'normal
+                    :width 'normal)

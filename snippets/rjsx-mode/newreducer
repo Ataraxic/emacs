@@ -1,0 +1,15 @@
+#name : newreducer
+#group : react  
+# --
+export function $1 (state: ReduxState, action: ACTIONS) {
+  switch (action.type) {
+    case "$2":
+
+      return {
+        ...state,
+
+      };
+    default:
+      return state;
+  }
+}
