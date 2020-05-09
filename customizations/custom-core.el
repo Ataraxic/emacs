@@ -40,6 +40,8 @@
     helm-projectile
     js2-mode
     json-mode
+    lsp-mode
+    lsp-ui
     magit
     markdown-mode
     minions

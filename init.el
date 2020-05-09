@@ -58,7 +58,8 @@
  ;; If there is more than one, they won't work right.
  '(js-indent-level 2)
  '(package-selected-packages
-   '(dockerfile-mode csv-mode go-mode haml-mode scss-mode parinfer parinfer-mode org-plus-contrib org-mode multi-term zenburn-theme yasnippet yaml-mode web-mode smartparens rubocop rspec-mode rjsx-mode rbenv rainbow-delimiters markdown-mode magit json-mode helm-projectile helm-ag expand-region exec-path-from-shell enh-ruby-mode editorconfig crux cider anzu ace-window))
+   '(company-lsp lsp-ui lsp-mode groovy-mode dockerfile-mode csv-mode go-mode haml-mode scss-mode parinfer parinfer-mode org-plus-contrib org-mode multi-term zenburn-theme yasnippet yaml-mode web-mode smartparens rubocop rspec-mode rjsx-mode rbenv rainbow-delimiters markdown-mode magit json-mode helm-projectile helm-ag expand-region exec-path-from-shell enh-ruby-mode editorconfig crux cider anzu ace-window)))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -66,8 +67,8 @@
  ;; If there is more than one, they won't work right.
  )
 
-(set-face-attribute 'default nil
-                    :family "Inconsolata for Powerline"
-                    :height 140
-                    :weight 'normal
-                    :width 'normal)
+ (set-face-attribute 'default nil
+                     :family "Inconsolata for Powerline"
+                     :height 140
+                     :weight 'normal
+                     :width 'normal)
