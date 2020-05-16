@@ -23,15 +23,13 @@
     cider
     clojure-mode
     company
-    company-go
+    company-lsp
     crux
     editorconfig
     enh-ruby-mode
     exec-path-from-shell
     expand-region
     go-add-tags
-    go-direx
-    go-eldoc
     go-mode
     go-stacktracer
     gotest

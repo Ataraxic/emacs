@@ -11,3 +11,4 @@ elpa
 eshell
 tramp
 %backup%~
+.lsp*
