@@ -7,7 +7,6 @@
 (define-key projectile-mode-map (kbd "C-c C-p") 'projectile-command-map)
 
 (require 'helm)
-(require 'helm-config)
 (helm-mode 1)
 
 (setq projectile-completion-system 'helm)

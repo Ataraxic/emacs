@@ -7,6 +7,23 @@
 ;; so much utility
 (require 'cl)
 
+;; bootstrap straight
+(defvar bootstrap-version)
+(let ((bootstrap-file
+       (expand-file-name
+        "straight/repos/straight.el/bootstrap.el"
+        (or (bound-and-true-p straight-base-dir)
+            user-emacs-directory)))
+      (bootstrap-version 7))
+  (unless (file-exists-p bootstrap-file)
+    (with-current-buffer
+        (url-retrieve-synchronously
+         "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
+         'silent 'inhibit-cookies)
+      (goto-char (point-max))
+      (eval-print-last-sexp)))
+  (load bootstrap-file nil 'nomessage))
+
 ;; Taken from prelude's init.el
 (defun add-subfolders-to-load-path (parent-dir)
  "Add all level PARENT-DIR subdirs to the `load-path'."
@@ -57,8 +74,14 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   (quote
-    (scss-mode parinfer parinfer-mode org-plus-contrib org-mode multi-term zenburn-theme yasnippet yaml-mode web-mode smartparens rubocop rspec-mode rjsx-mode rbenv rainbow-delimiters markdown-mode magit json-mode helm-projectile helm-ag expand-region exec-path-from-shell enh-ruby-mode editorconfig crux cider anzu ace-window))))
+   '(ace-window anzu cider company crux csv-mode dockerfile-mode
+                editorconfig enh-ruby-mode exec-path-from-shell
+                expand-region go-add-tags go-mode go-stacktracer
+                gotest graphql-mode helm-ag helm-projectile json-mode
+                jtsx jupyter lsp-ui magit minions moody multi-term
+                org-plus-contrib rainbow-delimiters rbenv rjsx-mode
+                rspec-mode rubocop scss-mode smartparens transient
+                web-mode yaml-mode yasnippet zenburn-theme)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -67,8 +90,12 @@
  ;; If there is more than one, they won't work right.
  )
 
- (set-face-attribute 'default nil
-                     :family "Inconsolata for Powerline"
-                     :height 140
+(set-face-attribute 'default nil
+                     :family "JetBrainsMono"
+                     :height 120
                      :weight 'normal
                      :width 'normal)
+
+ (setq-default bidi-display-reordering 'left-to-right
+                  bidi-paragraph-direction 'left-to-right
+                  bidi-inhibit-bpa t)

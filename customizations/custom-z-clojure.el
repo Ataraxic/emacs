@@ -4,7 +4,6 @@
 ;; a great lisp coding hook
 (defun custom-clojure-mode-defaults ()
   (subword-mode +1)
-  (parinfer-mode t)
   (rainbow-delimiters-mode +1))
 
 (with-eval-after-load 'clojure-mode

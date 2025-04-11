@@ -3,7 +3,7 @@
 (add-to-list 'package-archives
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
 
 
@@ -23,7 +23,6 @@
     cider
     clojure-mode
     company
-    company-lsp
     crux
     editorconfig
     enh-ruby-mode
@@ -47,7 +46,6 @@
     multi-term
     org
     org-plus-contrib
-    parinfer
     projectile
     rainbow-delimiters
     rbenv
@@ -180,3 +178,7 @@ PACKAGE is installed only if not already present.  The file is opened in MODE."
   (moody-replace-vc-mode))
 
 
+(defun wsl-copy (start end)
+  (interactive "r")
+  (shell-command-on-region start end "clip.exe")
+  (deactivate-mark))
